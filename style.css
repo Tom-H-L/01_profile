@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Carme&display=swap');
+
+body {
+  font-family: 'Carme', sans-serif;
+  color: rgba(200, 200, 200, 1);
+  text-align: center;
+  line-height: 2em;
+}
+
+#background-video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.container {
+  width: 700px;
+  position: relative;
+  margin: 0 auto;
+}
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+    position: relative;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+    position: relative;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+    position: relative;
+    margin: 0 auto;
+  }
+}
+
+
+.card {
+  background-color: rgba(58, 12, 163, 0.2);
+  margin: 30px;
+  padding: 30px;
+}
+
+.avatar {
+  width: 200px;
+  height: 200px;
+  margin: 30px auto;
+  border: 3px solid rgba(247, 37, 133, 1);
+  border-radius: 50%;
+  background: radial-gradient(rgba(247, 37, 133, 0.4), rgba(58, 12, 163, 0.99)), url(images/tom_h_lautenbacher.jpg) no-repeat top center;
+}
+
+.button-big {
+  width: 50px;
+  height: 20px;
+  font-size: 25px;
+  color: rgba(247, 37, 133, 1);
+  background-color: rgba(247, 37, 133, 0.15);
+  border: 3px solid rgba(247, 37, 133, 1);
+  padding: 5px;
+  border-radius: 15px;
+}
+
+.button-big:hover {
+  width: 53px;
+  height: 22px;
+  font-size: 28px;
+  color: rgba(247, 37, 133, 1);
+  background-color: rgba(247, 37, 133, 0.15);
+  border: 3px solid rgba(247, 37, 133, 1);
+  padding: 5px;
+  border-radius: 15px;
+}
+
+.list-inline {
+  display: inline-block;
+  padding: 0px
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+h1, h2 {
+  font-family: 'Orbitron', sans-serif;
+  color: rgba(247, 37, 133, 1);
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 25px;
+}
+
+p {
+  font-size: 25px;
+  text-align: justify;
+  hyphens: auto;
+}
+
+a {
+  text-decoration: none;
+  color: rgba(200, 200, 200, 1);
+}
+
+a:hover {
+  color: rgba(247, 37, 133, 1);
+}
